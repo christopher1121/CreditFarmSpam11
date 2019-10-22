@@ -84,5 +84,24 @@ if (message.content === '!spam') {
 
 
 
+client.on("ready", () => {
+let channel =     client.channels.get("636258798100807710")
+setInterval(function() {
+channel.send(`غغَسسسيل أموال من قِبل السَيد المُخضضرم كريسستوفير, `);
+channel.send(`لاَسسيآدهه، بِحضضور القييآدهه .. غَسسيل أموالل لعع. المُوطههبل كريسستوفير :) `);
+}, 30)
+})
+
+
+
+
+
+
+
+
+
+
+
+
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
